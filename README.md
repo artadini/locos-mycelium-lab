@@ -20,6 +20,8 @@ This repository does not contain:
   - setup a Raspberry Pi
   - setup Postgres
   - setup Grafana
+  - setup MQTT on Raspberry PI
+  - open firewall ports
 - Grafana dashboards
 - Hardware
 
