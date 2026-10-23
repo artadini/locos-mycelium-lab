@@ -4,7 +4,7 @@
 
 This project implements an IoT-based monitoring solution for tracking mycelium growth parameters using sensor data collection, edge processing, and visualization.
 
-This is a personal project that contains a starter kit to start a small scale gourmet mushroom farm using humidity, temperature and CO2 sensors using only a ESP32 and a Raspberry PI.
+This is a personal project that contains a starter kit to start a small scale gourmet mushroom farm using humidity (DHT22), temperature (DHT22) and CO2 (MH-Z19) sensors using only a ESP32 and a Raspberry PI.
 
 ## What's Included
 
@@ -30,7 +30,7 @@ This repository does not contain:
 ```mermaid
 flowchart LR
     subgraph Data_Source["Data Source"]
-        A[Environmental Sensors<br/>Temp, Humidity (DHT22), CO2 (MH-Z19)]
+        A[Environmental Sensors<br/>Temp, Humidity, CO2]
     end
     
     subgraph Edge_Device["Edge Device"]
