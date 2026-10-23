@@ -29,21 +29,21 @@ This repository does not contain:
 
 ```mermaid
 flowchart LR
-    subgraph Data_Source["📊 Data Source"]
-        A[Environmental Sensors<br/>Temp, Humidity, CO2]
+    subgraph Data_Source["Data Source"]
+        A[Environmental Sensors<br/>Temp, Humidity (DHT22), CO2 (MH-Z19)]
     end
     
-    subgraph Edge_Device["🔧 Edge Device"]
+    subgraph Edge_Device["Edge Device"]
         B[ESP32 Microcontroller]
         C[Mosquitto MQTT Broker]
     end
     
-    subgraph Processing["⚙️ Processing"]
+    subgraph Processing["Processing"]
         D[Raspberry Pi<br/>Python Scripts]
         E[(PostgreSQL Database)]
     end
     
-    subgraph Visualization["📈 Visualization"]
+    subgraph Visualization["Visualization"]
         F[Grafana Dashboard]
     end
     
